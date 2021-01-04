@@ -13,16 +13,17 @@ struct ContentView: View {
             MapView()
                 .frame(height: 300)
                 .ignoresSafeArea(edges: .top)
-            
+
             CircleImage()
                 .offset(x: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/, y: /*@START_MENU_TOKEN@*/-130.0/*@END_MENU_TOKEN@*/)
                 .padding(/*@START_MENU_TOKEN@*/.bottom, -130.0/*@END_MENU_TOKEN@*/)
-            
-            
+
+
             VStack(alignment: .leading) {
-                
+
                 Text("Turtle Rock")
                     .font(.title)
+
                 HStack {
                     Text("Joshua Tree National Park")
                     Spacer()
@@ -30,17 +31,17 @@ struct ContentView: View {
                 }
                 .font(.subheadline)
                 .foregroundColor(.secondary)
-                
+
                 Divider()
-                
+
                 Text("About Turtle Rock")
                     .font(.title2)
-                
+
                 Text("Descriptive text goes here")
                     .font(.subheadline)
-                
+
             }.padding()
-            
+
             Spacer()
         }
     }
