@@ -14,7 +14,7 @@ struct LandmarkDetail: View {
                 .frame(height: 300)
                 .ignoresSafeArea(edges: .top)
 
-            CircleImage()
+            CircleImage(image: Image("turtlerock"))
                 .offset(x: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/, y: /*@START_MENU_TOKEN@*/-130.0/*@END_MENU_TOKEN@*/)
                 .padding(/*@START_MENU_TOKEN@*/.bottom, -130.0/*@END_MENU_TOKEN@*/)
 
